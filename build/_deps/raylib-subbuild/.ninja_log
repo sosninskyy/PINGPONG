@@ -1,0 +1,21 @@
+# ninja log v7
+2	68	8109308925368072	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	59766ab3bd47e1c8
+2	68	8109308925368072	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	59766ab3bd47e1c8
+69	72628	8109309650954619	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	105b3ae35f4e9331
+69	72628	8109309650954619	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	105b3ae35f4e9331
+72628	75356	8109309651014641	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	4fb45c47c17db8d
+72628	75356	8109309651014641	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	4fb45c47c17db8d
+75357	75434	8109309679015031	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	b6618542ae2759b7
+75357	75434	8109309679015031	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	b6618542ae2759b7
+75434	75518	8109309679845015	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	1a8908cca8097439
+75434	75518	8109309679845015	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	1a8908cca8097439
+75519	75596	8109309680625935	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	8f5e59e314400b27
+75519	75596	8109309680625935	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	8f5e59e314400b27
+75596	75684	8109309681505903	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	6d68cae41af64b3e
+75596	75684	8109309681505903	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	6d68cae41af64b3e
+75684	75774	8109309682401409	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	61c5abdcfb0aba58
+75684	75774	8109309682401409	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	61c5abdcfb0aba58
+75774	75881	8109309683477816	CMakeFiles/raylib-populate-complete	277ad1b37566494f
+75774	75881	8109309683477816	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	277ad1b37566494f
+75774	75881	8109309683477816	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	277ad1b37566494f
+75774	75881	8109309683477816	C:/Users/sosni/PingPong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	277ad1b37566494f
