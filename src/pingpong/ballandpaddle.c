@@ -58,6 +58,6 @@ int circle(struct Cir *cir, Vector3 *rect, int *deaths) {
         restart(cir, rect);
         *deaths += 1;
     }
-    DrawRectangle(0, cir->y, rect->x, rect->z, RED);
+    DrawRectangle(0, cir->y - (rect->z / 2), rect->x, rect->z, RED);
     DrawCircle(cir->x, cir->y, cir->rad, WHITE);
 }
