@@ -30,8 +30,7 @@ void paddle(Vector3 *rect) {
     DrawRectangle(GetScreenWidth() - rect->x, rect->y, rect->x, rect->z, WHITE);
 }
 
-void circle(struct Cir *cir, Vector3 *rect) {
-    int deaths = 0;
+int circle(struct Cir *cir, Vector3 *rect, int *deaths) {
     if ((cir->y + cir->rad) >= GetScreenHeight()) {
         cir->y = GetScreenHeight() - cir->rad;
         cir->speedy = cir->speedy * -1;
@@ -57,8 +56,7 @@ void circle(struct Cir *cir, Vector3 *rect) {
 
     if ((cir->x + cir->rad) >= GetScreenWidth()) {
         restart(cir, rect);
-        deaths += 1;
+        *deaths += 1;
     }
     DrawCircle(cir->x, cir->y, cir->rad, WHITE);
-    DrawText(TextFormat("Deaths: %d", deaths), 20, 20, 20, WHITE);
 }

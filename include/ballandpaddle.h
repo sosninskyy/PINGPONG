@@ -10,5 +10,5 @@ struct Cir {
 
 void checkKeys(Vector3 *rect);
 void paddle(Vector3 *rect);
-void circle(struct Cir *cir, Vector3 *rect);
+void circle(struct Cir *cir, Vector3 *rect, int *deaths);
 void startScreen();
