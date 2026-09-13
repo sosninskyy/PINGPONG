@@ -46,8 +46,8 @@ int circle(struct Cir *cir, Vector3 *rect, int *deaths) {
         cir->speedx = cir->speedx * -1; 
     }
 
-    if ((cir->x - cir->rad) <= 0) {
-        cir->x = 0 + cir->rad;
+    if ((cir->x - cir->rad) <= rect->x) {
+        cir->x = rect->x + cir->rad;
         cir->speedx = cir->speedx * -1; 
     }
 
@@ -58,5 +58,6 @@ int circle(struct Cir *cir, Vector3 *rect, int *deaths) {
         restart(cir, rect);
         *deaths += 1;
     }
+    DrawRectangle(0, cir->y, rect->x, rect->z, RED);
     DrawCircle(cir->x, cir->y, cir->rad, WHITE);
 }
